@@ -1,0 +1,15 @@
+{
+  "name": "foo",
+  "description": "describe your project",
+  "dependencies": {
+    "jade": "0.35.x",
+    "marked": "0.2.x",
+    "stylus": "0.41.x",
+    "coffee-script": "1.x.x",
+    "autoprefixer-stylus": "0.0.x",
+    "axis-css": "0.x.x",
+    "rupture": "0.0.x",
+    "browserify": "3.x.x",
+    "jquery": "2.1.x"
+  }
+}
