@@ -10,7 +10,7 @@ All these settings can be easily swapped for other preferences you might have in
 Installation
 ------------
 
-To install: `roots template add base`
+To install: `roots template add base`    
 To make default: `roots template default base`
 
 > **Note**: This template is installed by default with roots, so this is not necessary, just serves as an example for other roots templates here
