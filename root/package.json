@@ -1,6 +1,6 @@
 {
-  "name": "foo",
-  "description": "describe your project",
+  "name": "<%= name %>",
+  "description": "<%= description %>",
   "dependencies": {
     "jade": "0.35.x",
     "marked": "0.2.x",

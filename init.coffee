@@ -1,0 +1,1 @@
+exports.configure = ['name', 'description']
