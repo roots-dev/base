@@ -1,0 +1,1 @@
+ignores: ['readme.md', '**/layout.*']
