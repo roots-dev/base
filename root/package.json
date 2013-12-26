@@ -9,7 +9,16 @@
     "autoprefixer-stylus": "0.0.x",
     "axis-css": "0.x.x",
     "rupture": "0.0.x",
-    "browserify": "3.x.x",
-    "jquery": "2.1.x"
+    "browserify-shim": "3.x.x",
+    "roots-browserify": "0.1.x"
+  },
+  "browserify": {
+    "transform": [ "browserify-shim" ]
+  },
+  "browser": {
+    "jquery": "./public/components/jquery/jquery.min.js"
+  },
+  "browserify-shim": {
+    "jquery": { "exports": "$" }
   }
 }
