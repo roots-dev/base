@@ -2,23 +2,12 @@
   "name": "<%= name %>",
   "description": "<%= description %>",
   "dependencies": {
-    "jade": "0.35.x",
-    "marked": "0.2.x",
+    "jade": "1.x.x",
+    "marked": "0.3.x",
     "stylus": "0.41.x",
     "coffee-script": "1.x.x",
     "autoprefixer-stylus": "0.0.x",
     "axis-css": "0.x.x",
-    "rupture": "0.0.x",
-    "browserify-shim": "3.x.x",
-    "roots-browserify": "0.1.x"
-  },
-  "browserify": {
-    "transform": [ "browserify-shim" ]
-  },
-  "browser": {
-    "jquery": "./public/components/jquery/jquery.min.js"
-  },
-  "browserify-shim": {
-    "jquery": { "exports": "$" }
+    "rupture": "0.0.x"
   }
 }
