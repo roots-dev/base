@@ -5,9 +5,9 @@
 Setup
 -----
 
-- make sure [node.js](http://nodejs.org) is installed
-- `npm install roots -g`
-- `roots template add <%= name %>`
-- `roots new project-name --<%= name %>`
-- `roots watch`
+- make sure [node.js](http://nodejs.org) and [roots](http://roots.cx) are installed
+- clone this repo down and `cd` into the folder
+- run `npm install`
+- run `roots watch`
+- ???
 - get money
