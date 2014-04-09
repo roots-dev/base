@@ -2,12 +2,12 @@
   "name": "<%= name %>",
   "description": "<%= description %>",
   "dependencies": {
-    "jade": "1.x.x",
+    "jade": "1.x",
     "marked": "0.3.x",
-    "stylus": "0.42.x",
-    "coffee-script": "1.x.x",
-    "autoprefixer-stylus": "0.0.x",
+    "stylus": "0.43.x",
+    "coffee-script": "1.7.x",
+    "autoprefixer-stylus": "0.0.4",
     "axis-css": "0.2.x",
-    "rupture": "0.0.x"
+    "rupture": "0.0.3"
   }
 }
