@@ -1,7 +1,7 @@
 Roots Base Template
 -------------------
 
-[![dependencies](https://david-dm.org/roots-dev/base.png)](https://david-dm.org/roots-dev/base)
+[![dependencies](https://david-dm.org/roots-dev/base.svg)](https://david-dm.org/roots-dev/base)
 
 The default template that ships with [roots](https://github.com/jenius/roots). Uses [jade](https://github.com/visionmedia/jade), [stylus](https://github.com/learnboost/stylus), and [coffeescript](https://github.com/jashkenas/coffee-script), along with [axis](https://github.com/jenius/axis), [autoprefixer](https://github.com/jenius/autoprefixer-stylus), and [rupture](https://github.com/jenius/rupture) stylus plugins and [browserify](https://github.com/substack/node-browserify) compile and minify client-side js.
 
