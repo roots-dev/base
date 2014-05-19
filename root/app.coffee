@@ -1,9 +1,9 @@
-axis         = require 'axis-css'
-autoprefixer = require 'autoprefixer-stylus'
+axis         = require 'axis'
 rupture      = require 'rupture'
+autoprefixer = require 'autoprefixer-stylus'
 
 module.exports =
   ignores: ['readme.md', '**/layout.*', '**/_*', '.gitignore']
 
   stylus:
-    use: [axis(), autoprefixer(), rupture()]
+    use: [axis(), rupture(), autoprefixer()]
