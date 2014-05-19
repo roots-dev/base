@@ -4,10 +4,10 @@
   "dependencies": {
     "jade": "1.x",
     "marked": "0.3.x",
-    "stylus": "0.43.x",
+    "stylus": "0.45.x",
     "coffee-script": "1.7.x",
-    "autoprefixer-stylus": "0.0.4",
+    "autoprefixer-stylus": "0.1.x",
     "axis": "0.2.x",
-    "rupture": "0.0.3"
+    "rupture": "0.1.x"
   }
 }
