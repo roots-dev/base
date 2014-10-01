@@ -1,4 +1,4 @@
-# Roots Template: <%= name %>
+# <%= name %>
 
 <%= description %>
 

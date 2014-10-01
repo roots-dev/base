@@ -7,7 +7,7 @@
     "stylus": "0.48.x",
     "coffee-script": "1.8.x",
     "autoprefixer-stylus": "0.3.x",
-    "axis": "0.2.x",
+    "axis": "0.3.x",
     "rupture": "0.4.x"
   }
 }
