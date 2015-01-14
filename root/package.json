@@ -2,7 +2,7 @@
   "name": "<%= S(name).dasherize() %>",
   "description": "<%= description %>",
   "dependencies": {
-    "autoprefixer-stylus": "0.4.x",
+    "autoprefixer-stylus": "0.5.x",
     "axis": "0.3.x",
     "coffee-script": "1.8.x",
     "css-pipeline": "0.1.x",
