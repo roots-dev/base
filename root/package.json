@@ -1,5 +1,5 @@
 {
-  "name": "<%= S(name).dasherize() %>",
+  "name": "<%= S(name).dasherize().value() %>",
   "description": "<%= description %>",
   "dependencies": {
     "autoprefixer-stylus": "0.5.x",
