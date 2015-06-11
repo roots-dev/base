@@ -3,7 +3,7 @@
   "description": "<%= description %>",
   "dependencies": {
     "autoprefixer-stylus": "0.6.x",
-    "axis": "0.3.x",
+    "axis": "0.4.x",
     "coffee-script": "1.9.x",
     "css-pipeline": "0.2.x",
     "jade": "1.x",
