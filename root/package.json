@@ -2,15 +2,15 @@
   "name": "<%= S(name).dasherize().value() %>",
   "description": "<%= description %>",
   "dependencies": {
-    "autoprefixer-stylus": "0.7.x",
-    "axis": "0.4.x",
-    "coffee-script": "1.9.x",
+    "autoprefixer-stylus": "0.8.x",
+    "axis": "0.5.x",
+    "coffee-script": "^1.0.0",
     "css-pipeline": "0.3.x",
-    "jade": "1.x",
+    "jade": "^1.0.0",
     "js-pipeline": "0.2.x",
-    "jstransformer-marked": "0.0.x",
+    "jstransformer-marked": "^1.0.0",
     "marked": "0.3.x",
     "rupture": "0.6.x",
-    "stylus": "0.51.x"
+    "stylus": "0.52.x"
   }
 }
