@@ -1,23 +1,21 @@
-axis         = require 'axis'
-rupture      = require 'rupture'
-autoprefixer = require 'autoprefixer-stylus'
-js_pipeline  = require 'js-pipeline'
-css_pipeline = require 'css-pipeline'
+cssnext     = require 'postcss-cssnext'
+imports     = require 'postcss-import'
+whitespace  = require 'css-whitespace'
+js_pipeline = require 'js-pipeline'
 
 module.exports =
   ignores: ['readme.md', '**/layout.*', '**/_*', '.gitignore', 'ship.*conf']
 
   extensions: [
     js_pipeline(files: 'assets/js/*.coffee'),
-    css_pipeline(files: 'assets/css/*.styl')
   ]
 
-  stylus:
-    use: [axis(), rupture(), autoprefixer()]
-    sourcemap: true
+  babel:
+    presets: ['es2015', 'stage-2']
 
-  'coffee-script':
-    sourcemap: true
+  postcss:
+    use: [imports(transform: whitespace), cssnext]
+    from: 'assets/css/master.css'
 
   jade:
     pretty: true

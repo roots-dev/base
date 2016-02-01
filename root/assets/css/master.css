@@ -1,0 +1,5 @@
+/* See http://cssnext.io for extra available css features! */
+/* Use this file to split out your css to multiple files. Just make sure to
+   @import the file name here so it's included! */
+
+@import "_global"
