@@ -2,15 +2,18 @@
   "name": "<%= S(name).dasherize().value() %>",
   "description": "<%= description %>",
   "dependencies": {
-    "autoprefixer-stylus": "0.8.x",
     "axis": "0.5.x",
-    "coffee-script": "^1.0.0",
-    "css-pipeline": "0.3.x",
-    "jade": "^1.0.0",
+    "babel-core": "6.x",
+    "babel-preset-es2015": "6.x",
+    "babel-preset-stage-2": "6.x",
+    "css-whitespace": "1.x",
+    "postcss": "5.x",
+    "postcss-cssnext": "2.x",
+    "postcss-import": "8.x",
+    "jade": "1.x",
     "js-pipeline": "0.2.x",
-    "jstransformer-marked": "^1.0.0",
+    "jstransformer-marked": "1.x",
     "marked": "0.3.x",
-    "rupture": "0.6.x",
-    "stylus": "0.52.x"
+    "rupture": "0.6.x"
   }
 }
